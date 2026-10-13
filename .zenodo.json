@@ -1,0 +1,11 @@
+{
+  "title": "freshness-nav2: code and raw traces for \"Freshness Is a Pipeline Property: Testing Temporal Obligations in Nav2 Command Chains\" (ITT 2026)",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Nezif, Filmon", "affiliation": "Higher Colleges of Technology"}
+  ],
+  "description": "<p>Experiment runner, finite-trace monitor, audit and analysis scripts, raw traces (80-trial main campaign and 60-trial availability-control campaign), container recipe, and LaTeX source for the ITT 2026 paper. <code>make verify</code> recomputes every result from the raw traces without ROS; <code>make campaign</code> re-runs the ROS 2 Jazzy / Nav2 1.3.13 experiment in a container.</p>",
+  "license": "Apache-2.0",
+  "keywords": ["ROS 2", "Navigation2", "fault injection", "timestamp validity", "command timeout", "runtime monitoring"],
+  "access_right": "open"
+}

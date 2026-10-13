@@ -22,7 +22,7 @@ Main campaign: 16 scenarios × 5 repetitions = 80 trials, 640 paired endpoint ev
 | G | all checks + clock receipt/progress | 80 |
 
 - **Delivery and chronology are different problems.** The smoother's command timeout (W) and the lease (C) handle command loss. Only the timestamp checks catch future, frozen, or reordered stamps before CM's age timeout does.
-- **Recovery has to be tested too.** After a clock reset followed by valid new-epoch scans, the latched stamp-order check (O) neither meets the stop deadline nor resumes (0/5), while epoch invalidation (E) does both (5/5).
+- **Recovery has to be tested too.** After a clock reset followed by valid new-epoch scans, the stamp-order check (O) keeps driving through the reset, then treats the valid new-epoch scans as out of order, latches, and never resumes (0/5). Epoch invalidation (E) stops and resumes (5/5).
 - **Sensitivity.** Re-scoring the traces offline with stop deadlines of 150–250 ms, resume allowances of 200–500 ms, and output-gap limits of 150–250 ms changes no verdict. At 100 ms, W loses 4 of 10 command-loss passes, matching its ~96 ms mean response.
 - **False stops.** A separate 60-trial campaign of the availability controls found no false stops. Pooled over 75 availability trials per chain: F stopped falsely once (95% CI 0.03–7.2%), every other chain never (95% upper bound 3.9%).
 
