@@ -1,6 +1,6 @@
 # Freshness Is a Pipeline Property: Testing Temporal Obligations in Nav2 Command Chains
 
-Code, raw data, and paper source for the ITT 2026 paper by Filmon Nezif (Higher Colleges of Technology).
+Code, raw data, and paper source for the ITT 2026 paper by Filmon Nezif (Higher Colleges of Technology). The paper links here as its artifact.
 
 The study asks how ROS 2 Navigation2 (Nav2) command chains respond when commands stop arriving, scan timestamps become invalid, or the clock jumps to a new epoch. An executable finite-trace monitor derives each fault trigger from the recorded input events and checks three things: does the chain emit zero by a fixed deadline, does it stay stopped, and does it resume after recovery. Eight configurations combine Nav2's Collision Monitor, its velocity smoother, a periodic relay, and selected reference checks.
 

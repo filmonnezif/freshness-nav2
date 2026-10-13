@@ -76,7 +76,7 @@ For a triggered scenario, let $h$ be the actual valid recovery publication time,
 \forall r\in[q+\delta_R,h):\quad \hat{\mathbf{u}}(r)=\mathbf{0},\qquad \delta_R=0.15\,\mathrm{s}.
 \label{eq:stop}
 \end{equation}
-We treat each command component as zero within a tolerance of $10^{-4}$. The response allowance was fixed before the final campaign and includes delivery and scheduling delays. In timeout scenarios, it begins when the command lease or observation-age threshold is crossed. Changing the window used to display a trace does not change the deadline.
+We treat each command component as zero within a tolerance of $10^{-4}$. The response allowance was fixed before the final campaign and includes delivery and scheduling delays. In timeout scenarios, it begins when the command lease or observation-age threshold is crossed.
 
 Revocation latency is $z-q$, where $z$ is the earliest time at or after $q$ from which the output remains zero until $h$. An output already at zero at $q$ has zero latency. A stop after the deadline still has a measurable latency, but fails (\ref{eq:stop}). If no sustained stop is observed, latency is recorded as missing.
 
@@ -139,7 +139,7 @@ The artifact uses installed ROS 2 Jazzy Nav2 1.3.13 packages with \texttt{rmw\_f
 
 Inputs are published in a separate DDS domain under unique trial namespaces: clock at approximately 100 Hz, scans at 10 Hz, and commands at 20 Hz. Each scan has 360 ranges of 5 m, outside a square stop polygon of side 0.6 m. Identical base/odometry frames and disabled base-shift compensation isolate chronology from transform-buffer effects. The commanded components are 0.22 m/s and 0.10 rad/s.
 
-Each 3.20 s trial starts after lifecycle activation and preflight zero delivery through all chains, without preflight scans. Every non-startup trial must exhibit commanded motion in every chain before the fault. Failed setup aborts the campaign and retains its files. Scenario/repetition order is shuffled with a recorded seed. Five repetitions yield 80 trials and 640 endpoint evaluations, not 640 independent runs. Source snapshots include the probe, checks, monitor, taxonomy, and protocol. Asset generation verifies their hashes, checks injected input patterns, and recomputes all endpoint judgments from raw traces. The artifact (traces, source snapshots, monitor, and build scripts) is available at \url{ARTIFACT-URL}.
+Each 3.20 s trial starts after lifecycle activation and preflight zero delivery through all chains, without preflight scans. Every non-startup trial must exhibit commanded motion in every chain before the fault. Failed setup aborts the campaign and retains its files. Scenario/repetition order is shuffled with a recorded seed. Five repetitions yield 80 trials and 640 endpoint evaluations, not 640 independent runs. Source snapshots include the probe, checks, monitor, taxonomy, and protocol. Asset generation verifies their hashes, checks injected input patterns, and recomputes all endpoint judgments from raw traces. Traces, sources, and scripts are available at \url{https://github.com/filmonnezif/freshness-nav2}.
 
 \section{Results}
 \begin{figure}[t]
