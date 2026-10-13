@@ -6,6 +6,9 @@ authors:
     given-names: Filmon
     affiliation: Higher Colleges of Technology
 license: Apache-2.0
+doi: 10.5281/zenodo.23338289
+repository-code: "https://github.com/filmonnezif/freshness-nav2"
+version: 1.0.0
 preferred-citation:
   type: conference-paper
   title: "Freshness Is a Pipeline Property: Testing Temporal Obligations in Nav2 Command Chains"

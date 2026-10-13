@@ -1,5 +1,7 @@
 # Freshness Is a Pipeline Property: Testing Temporal Obligations in Nav2 Command Chains
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23338289.svg)](https://doi.org/10.5281/zenodo.23338289)
+
 Code, raw data, and paper source for the ITT 2026 paper by Filmon Nezif (Higher Colleges of Technology). The paper links here as its artifact.
 
 The study asks how ROS 2 Navigation2 (Nav2) command chains respond when commands stop arriving, scan timestamps become invalid, or the clock jumps to a new epoch. An executable finite-trace monitor derives each fault trigger from the recorded input events and checks three things: does the chain emit zero by a fixed deadline, does it stay stopped, and does it resume after recovery. Eight configurations combine Nav2's Collision Monitor, its velocity smoother, a periodic relay, and selected reference checks.
@@ -92,7 +94,7 @@ The outcome measured is a zero command observed at a software endpoint. The stud
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff).
+Archived on Zenodo: [doi:10.5281/zenodo.23338289](https://doi.org/10.5281/zenodo.23338289) (all versions; v1.0.0 is [10.5281/zenodo.23338290](https://doi.org/10.5281/zenodo.23338290)). See [CITATION.cff](CITATION.cff).
 
 ## License
 
