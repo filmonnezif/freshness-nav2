@@ -1,0 +1,21 @@
+[INFO] [1789798603.776790802] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: 
+	native_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798607.013920037] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Configuring
+[INFO] [1789798607.102593777] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798607.129825824] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798607.235333490] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Activating
+[INFO] [1789798607.235539590] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Creating bond (native_cm) to lifecycle manager.
+[WARN] [1789798608.089328196] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798608.422107549] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Robot to continue normal operation
+[WARN] [1789798609.378751141] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1789798611.618989892] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798611.621530763] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Running Nav2 LifecycleNode rcl preshutdown (native_cm)
+[INFO] [1789798611.621694441] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Deactivating
+[INFO] [1789798611.621739249] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789798611.633769163] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Cleaning up
+[INFO] [1789798611.633880907] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798611.633930331] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798611.645116281] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789798611.687040223] [freshness_probe.v5_85046.clock_epoch_recovery_r03.native_cm]: Destroying

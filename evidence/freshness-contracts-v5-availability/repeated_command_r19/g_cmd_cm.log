@@ -1,0 +1,20 @@
+[INFO] [1791880994.040026303] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880994.109006642] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Configuring
+[INFO] [1791880994.134743436] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880994.144419617] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880994.234117287] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Activating
+[INFO] [1791880994.234167006] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1791880995.455991474] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880997.875823899] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Robot to continue normal operation
+[INFO] [1791881001.094072228] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791881001.095430529] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1791881001.096300183] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Deactivating
+[INFO] [1791881001.096997822] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1791881001.108099552] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Cleaning up
+[INFO] [1791881001.108241329] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791881001.108275688] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791881001.118997696] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1791881001.164309635] [freshness_probe.v5_19.repeated_command_r19.g_cmd_cm]: Destroying

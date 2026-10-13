@@ -1,0 +1,20 @@
+[INFO] [1791880859.444146348] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: 
+	native_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880859.558547211] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Configuring
+[INFO] [1791880859.586985280] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880859.605357675] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880859.694762349] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Activating
+[INFO] [1791880859.694870134] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Creating bond (native_cm) to lifecycle manager.
+[WARN] [1791880862.852683069] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880863.325070024] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Robot to continue normal operation
+[INFO] [1791880866.493005864] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880866.493185813] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Running Nav2 LifecycleNode rcl preshutdown (native_cm)
+[INFO] [1791880866.493298745] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Deactivating
+[INFO] [1791880866.493341148] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1791880866.503977405] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Cleaning up
+[INFO] [1791880866.504261429] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880866.504318363] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880866.531153837] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1791880866.571801335] [freshness_probe.v5_19.benign_stamp_lag_r10.native_cm]: Destroying

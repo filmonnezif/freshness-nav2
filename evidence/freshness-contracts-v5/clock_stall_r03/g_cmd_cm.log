@@ -1,0 +1,20 @@
+[INFO] [1789798944.467115458] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798944.930863745] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Configuring
+[INFO] [1789798944.978091700] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798944.990629932] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798945.237941769] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Activating
+[INFO] [1789798945.238092072] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1789798948.350445320] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798948.739215147] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Robot to continue normal operation
+[INFO] [1789798951.959501075] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798951.959728431] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1789798951.959825272] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Deactivating
+[INFO] [1789798951.959852917] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789798951.971320593] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Cleaning up
+[INFO] [1789798951.971387447] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798951.971404843] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798951.976078438] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789798952.039270933] [freshness_probe.v5_85046.clock_stall_r03.g_cmd_cm]: Destroying

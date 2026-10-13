@@ -1,0 +1,20 @@
+[INFO] [1789798936.722662849] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: 
+	g_order_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798936.920883395] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Configuring
+[INFO] [1789798937.007809835] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798937.074665782] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798937.391945940] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Activating
+[INFO] [1789798937.392125499] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Creating bond (g_order_cm) to lifecycle manager.
+[WARN] [1789798938.755412522] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798940.440984516] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Robot to continue normal operation
+[INFO] [1789798943.688417962] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798943.688811026] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_order_cm)
+[INFO] [1789798943.689030542] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Deactivating
+[INFO] [1789798943.689148933] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Destroying bond (g_order_cm) to lifecycle manager.
+[INFO] [1789798943.700592288] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Cleaning up
+[INFO] [1789798943.700769402] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798943.700811600] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798943.722962206] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Destroying bond (g_order_cm) to lifecycle manager.
+[INFO] [1789798943.738743322] [freshness_probe.v5_85046.chrono_large_future_skew_r02.g_order_cm]: Destroying

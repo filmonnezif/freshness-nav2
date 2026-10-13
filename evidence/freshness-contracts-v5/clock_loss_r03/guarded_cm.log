@@ -1,0 +1,20 @@
+[INFO] [1789798780.020564315] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: 
+	guarded_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798780.302167344] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Configuring
+[INFO] [1789798780.415302872] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798780.468939872] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798780.645928388] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Activating
+[INFO] [1789798780.646530194] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Creating bond (guarded_cm) to lifecycle manager.
+[WARN] [1789798783.383246708] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798783.983479338] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Robot to continue normal operation
+[INFO] [1789798787.234172258] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798787.234391249] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Running Nav2 LifecycleNode rcl preshutdown (guarded_cm)
+[INFO] [1789798787.234532615] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Deactivating
+[INFO] [1789798787.234614850] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789798787.245203058] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Cleaning up
+[INFO] [1789798787.245270839] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798787.245286347] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798787.274760496] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789798787.332609195] [freshness_probe.v5_85046.clock_loss_r03.guarded_cm]: Destroying

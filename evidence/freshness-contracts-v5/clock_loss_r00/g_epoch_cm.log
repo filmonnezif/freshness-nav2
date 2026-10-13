@@ -1,0 +1,20 @@
+[INFO] [1789799070.845235997] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: 
+	g_epoch_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799071.566995622] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Configuring
+[INFO] [1789799071.641129857] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799071.670796262] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799071.894851922] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Activating
+[INFO] [1789799071.894987844] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Creating bond (g_epoch_cm) to lifecycle manager.
+[WARN] [1789799072.211463620] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799075.170350701] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Robot to continue normal operation
+[INFO] [1789799078.411832084] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799078.421164308] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_epoch_cm)
+[INFO] [1789799078.435357739] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Deactivating
+[INFO] [1789799078.438579858] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1789799078.477406041] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Cleaning up
+[INFO] [1789799078.477698769] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799078.477748676] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799078.514508558] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1789799078.555888091] [freshness_probe.v5_85046.clock_loss_r00.g_epoch_cm]: Destroying

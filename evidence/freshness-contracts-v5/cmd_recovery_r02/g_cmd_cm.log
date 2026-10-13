@@ -1,0 +1,20 @@
+[INFO] [1789798746.556395514] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798746.676451483] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Configuring
+[INFO] [1789798746.878505295] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798746.927724348] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798747.074559779] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Activating
+[INFO] [1789798747.074741250] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1789798748.091311851] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798750.394488055] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Robot to continue normal operation
+[INFO] [1789798753.630425907] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798753.632773894] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1789798753.636743734] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Deactivating
+[INFO] [1789798753.636833531] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789798753.647667419] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Cleaning up
+[INFO] [1789798753.647819591] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798753.647852054] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798753.657326527] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789798753.690946290] [freshness_probe.v5_85046.cmd_recovery_r02.g_cmd_cm]: Destroying

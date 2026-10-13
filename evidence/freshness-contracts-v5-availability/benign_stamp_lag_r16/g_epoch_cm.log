@@ -1,0 +1,20 @@
+[INFO] [1791880765.907597850] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: 
+	g_epoch_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880765.970848320] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Configuring
+[INFO] [1791880766.011879226] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880766.018455711] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880766.144917106] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Activating
+[INFO] [1791880766.145025374] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Creating bond (g_epoch_cm) to lifecycle manager.
+[WARN] [1791880769.372398758] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880769.671509063] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Robot to continue normal operation
+[INFO] [1791880772.869305624] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880772.869483325] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_epoch_cm)
+[INFO] [1791880772.869602930] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Deactivating
+[INFO] [1791880772.869656669] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1791880772.880134982] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Cleaning up
+[INFO] [1791880772.880209261] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880772.880254114] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880772.885911675] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1791880772.898691912] [freshness_probe.v5_19.benign_stamp_lag_r16.g_epoch_cm]: Destroying

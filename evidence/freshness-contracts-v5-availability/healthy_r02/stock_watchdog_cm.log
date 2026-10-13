@@ -1,0 +1,20 @@
+[INFO] [1791881009.638281227] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791881009.681185488] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Configuring
+[INFO] [1791881009.711189514] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791881009.720779966] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791881009.811150974] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Activating
+[INFO] [1791881009.811256741] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1791881012.895333055] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791881013.155136454] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Robot to continue normal operation
+[INFO] [1791881016.371291932] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791881016.371427754] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1791881016.371533286] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Deactivating
+[INFO] [1791881016.371577042] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1791881016.382244658] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Cleaning up
+[INFO] [1791881016.382349615] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791881016.382400175] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791881016.387219287] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1791881016.432475303] [freshness_probe.v5_19.healthy_r02.stock_watchdog_cm]: Destroying

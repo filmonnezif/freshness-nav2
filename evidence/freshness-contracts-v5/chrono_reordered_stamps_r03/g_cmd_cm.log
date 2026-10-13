@@ -1,0 +1,20 @@
+[INFO] [1789798894.664320443] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798895.031603604] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Configuring
+[INFO] [1789798895.084552290] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798895.090775346] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798895.322233416] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Activating
+[INFO] [1789798895.322516498] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1789798896.435588993] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798898.656303202] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Robot to continue normal operation
+[INFO] [1789798901.899703123] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798901.899973977] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1789798901.900185947] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Deactivating
+[INFO] [1789798901.900267468] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789798901.918575309] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Cleaning up
+[INFO] [1789798901.918800869] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798901.918848785] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798901.948569068] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789798901.965601159] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.g_cmd_cm]: Destroying

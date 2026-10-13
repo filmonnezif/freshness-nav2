@@ -1,0 +1,19 @@
+[INFO] [1789798722.209844874] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798722.614351175] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Configuring
+[INFO] [1789798722.674920991] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798722.703196660] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798722.869218254] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Activating
+[INFO] [1789798722.869316022] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1789798725.556890074] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798729.355656907] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798729.355894891] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1789798729.356085475] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Deactivating
+[INFO] [1789798729.356143582] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789798729.366753199] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Cleaning up
+[INFO] [1789798729.367695949] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798729.368368333] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798729.376630656] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789798729.421838086] [freshness_probe.v5_85046.obs_noscan_startup_r04.stock_watchdog_cm]: Destroying

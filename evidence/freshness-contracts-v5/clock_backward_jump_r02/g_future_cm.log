@@ -1,0 +1,21 @@
+[INFO] [1789799253.958986765] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: 
+	g_future_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799254.200116846] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Configuring
+[INFO] [1789799254.255446114] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799254.280445366] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799254.548675692] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Activating
+[INFO] [1789799254.548801473] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Creating bond (g_future_cm) to lifecycle manager.
+[WARN] [1789799257.865039308] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799258.104375096] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Robot to continue normal operation
+[WARN] [1789799259.101833846] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1789799261.359631231] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799261.359919958] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_future_cm)
+[INFO] [1789799261.360208309] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Deactivating
+[INFO] [1789799261.360305695] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789799261.389414283] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Cleaning up
+[INFO] [1789799261.389546374] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799261.389568111] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799261.403447724] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789799261.486919213] [freshness_probe.v5_85046.clock_backward_jump_r02.g_future_cm]: Destroying

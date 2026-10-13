@@ -1,0 +1,20 @@
+[INFO] [1789798836.635126657] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798836.636035940] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Configuring
+[INFO] [1789798836.745175679] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798836.793276761] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798836.883334716] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Activating
+[INFO] [1789798836.883521358] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789798839.880605552] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798840.161322319] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Robot to continue normal operation
+[INFO] [1789798843.451987195] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798843.452570654] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789798843.452851592] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Deactivating
+[INFO] [1789798843.452938580] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798843.466623618] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Cleaning up
+[INFO] [1789798843.467033068] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798843.471412055] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798843.647658352] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798843.736759032] [freshness_probe.v5_85046.chrono_large_future_skew_r03.periodic_cm]: Destroying

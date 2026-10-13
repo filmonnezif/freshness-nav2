@@ -1,0 +1,20 @@
+[INFO] [1789799038.816421779] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: 
+	native_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799038.829525595] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Configuring
+[INFO] [1789799038.845919410] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799038.867798817] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799039.134751146] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Activating
+[INFO] [1789799039.134933410] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Creating bond (native_cm) to lifecycle manager.
+[WARN] [1789799041.713886734] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799042.322794102] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Robot to continue normal operation
+[INFO] [1789799045.505513859] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799045.505637169] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Running Nav2 LifecycleNode rcl preshutdown (native_cm)
+[INFO] [1789799045.505751004] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Deactivating
+[INFO] [1789799045.505781746] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789799045.517313444] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Cleaning up
+[INFO] [1789799045.517390987] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799045.520735169] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799045.547642534] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789799045.556960078] [freshness_probe.v5_85046.cmd_recovery_r03.native_cm]: Destroying

@@ -1,0 +1,20 @@
+[INFO] [1789799070.866384466] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799071.568710570] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Configuring
+[INFO] [1789799071.599694226] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799071.640739808] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799071.898042548] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Activating
+[INFO] [1789799071.898370954] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1789799072.643366373] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799075.163394631] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Robot to continue normal operation
+[INFO] [1789799078.412466115] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799078.415831663] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1789799078.417440117] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Deactivating
+[INFO] [1789799078.418272212] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789799078.448118587] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Cleaning up
+[INFO] [1789799078.448391977] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799078.448452284] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799078.506443481] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789799078.514567759] [freshness_probe.v5_85046.clock_loss_r00.stock_watchdog_cm]: Destroying

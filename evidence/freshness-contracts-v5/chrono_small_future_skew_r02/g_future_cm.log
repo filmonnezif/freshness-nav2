@@ -1,0 +1,20 @@
+[INFO] [1789799155.582234917] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: 
+	g_future_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799155.924675883] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Configuring
+[INFO] [1789799156.006536178] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799156.071334060] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799156.231836549] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Activating
+[INFO] [1789799156.232177770] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Creating bond (g_future_cm) to lifecycle manager.
+[WARN] [1789799156.867540321] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799159.307603846] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Robot to continue normal operation
+[INFO] [1789799162.553730825] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799162.553950529] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_future_cm)
+[INFO] [1789799162.554132664] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Deactivating
+[INFO] [1789799162.554213334] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789799162.564743702] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Cleaning up
+[INFO] [1789799162.564917593] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799162.564948616] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799162.569495424] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789799162.659547585] [freshness_probe.v5_85046.chrono_small_future_skew_r02.g_future_cm]: Destroying

@@ -1,0 +1,21 @@
+[INFO] [1789799113.066122779] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: 
+	native_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799113.611185900] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Configuring
+[INFO] [1789799113.730397887] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799113.774270760] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799114.017910787] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Activating
+[INFO] [1789799114.018122244] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Creating bond (native_cm) to lifecycle manager.
+[WARN] [1789799116.926737932] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799117.256669245] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Robot to continue normal operation
+[WARN] [1789799118.215316184] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1789799120.453697294] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799120.454022480] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Running Nav2 LifecycleNode rcl preshutdown (native_cm)
+[INFO] [1789799120.454146050] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Deactivating
+[INFO] [1789799120.454174806] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789799120.465404272] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Cleaning up
+[INFO] [1789799120.465498416] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799120.465519491] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799120.478929986] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789799120.519298973] [freshness_probe.v5_85046.clock_backward_jump_r04.native_cm]: Destroying

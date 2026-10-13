@@ -1,0 +1,20 @@
+[INFO] [1789798979.036021132] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: 
+	g_future_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798979.426770885] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Configuring
+[INFO] [1789798979.554992073] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798979.595396054] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798979.779022140] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Activating
+[INFO] [1789798979.779195250] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Creating bond (g_future_cm) to lifecycle manager.
+[WARN] [1789798980.865576365] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798982.685409442] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Robot to continue normal operation
+[INFO] [1789798985.913227149] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798985.915428345] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_future_cm)
+[INFO] [1789798985.916392261] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Deactivating
+[INFO] [1789798985.916432589] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789798985.928175118] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Cleaning up
+[INFO] [1789798985.928247331] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798985.928268667] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798985.977037003] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789798986.054888016] [freshness_probe.v5_85046.clock_loss_r01.g_future_cm]: Destroying

@@ -1,0 +1,20 @@
+[INFO] [1789799164.032721221] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799164.035188372] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Configuring
+[INFO] [1789799164.155846799] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799164.185513739] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799164.267706271] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Activating
+[INFO] [1789799164.268582966] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1789799165.809728801] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799167.696711079] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Robot to continue normal operation
+[INFO] [1789799170.908651505] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799170.908815953] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1789799170.908936892] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Deactivating
+[INFO] [1789799170.909598968] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789799170.923622898] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Cleaning up
+[INFO] [1789799170.923751704] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799170.923773734] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799170.926656025] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789799170.988358613] [freshness_probe.v5_85046.repeated_command_r00.g_cmd_cm]: Destroying

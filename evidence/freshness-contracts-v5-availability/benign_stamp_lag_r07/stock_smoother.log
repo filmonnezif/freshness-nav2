@@ -1,0 +1,14 @@
+[INFO] [1791880750.093280850] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: 
+	stock_smoother lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880750.440723595] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Configuring velocity smoother
+[INFO] [1791880750.559766859] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Activating
+[INFO] [1791880750.559884530] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Creating bond (stock_smoother) to lifecycle manager.
+[INFO] [1791880757.291667499] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880757.291863168] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Running Nav2 LifecycleNode rcl preshutdown (stock_smoother)
+[INFO] [1791880757.291969001] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Deactivating
+[INFO] [1791880757.292050108] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Destroying bond (stock_smoother) to lifecycle manager.
+[INFO] [1791880757.307283799] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Cleaning up
+[INFO] [1791880757.307465496] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Destroying bond (stock_smoother) to lifecycle manager.
+[INFO] [1791880757.361762835] [freshness_probe.v5_19.benign_stamp_lag_r07.stock_smoother]: Destroying

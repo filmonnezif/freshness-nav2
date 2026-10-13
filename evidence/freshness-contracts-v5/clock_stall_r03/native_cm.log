@@ -1,0 +1,20 @@
+[INFO] [1789798944.501588030] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: 
+	native_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798944.927231417] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Configuring
+[INFO] [1789798944.985085972] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798945.070843496] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798945.241962105] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Activating
+[INFO] [1789798945.242277865] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Creating bond (native_cm) to lifecycle manager.
+[WARN] [1789798948.320292426] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798948.723791547] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Robot to continue normal operation
+[INFO] [1789798951.959575724] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798951.959759365] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Running Nav2 LifecycleNode rcl preshutdown (native_cm)
+[INFO] [1789798951.959898891] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Deactivating
+[INFO] [1789798951.959957663] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789798951.973232304] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Cleaning up
+[INFO] [1789798951.973584632] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798951.973635051] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798951.991718257] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789798952.013608054] [freshness_probe.v5_85046.clock_stall_r03.native_cm]: Destroying

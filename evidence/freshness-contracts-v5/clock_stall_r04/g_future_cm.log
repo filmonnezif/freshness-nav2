@@ -1,0 +1,20 @@
+[INFO] [1789798706.747042510] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: 
+	g_future_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798707.210619716] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Configuring
+[INFO] [1789798707.316737329] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798707.389585144] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798707.649966782] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Activating
+[INFO] [1789798707.650107098] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Creating bond (g_future_cm) to lifecycle manager.
+[WARN] [1789798707.992178418] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798711.201655814] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Robot to continue normal operation
+[INFO] [1789798714.429290527] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798714.429455385] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_future_cm)
+[INFO] [1789798714.429592134] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Deactivating
+[INFO] [1789798714.429664991] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789798714.440127609] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Cleaning up
+[INFO] [1789798714.440223583] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798714.440256886] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798714.451543330] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789798714.574033476] [freshness_probe.v5_85046.clock_stall_r04.g_future_cm]: Destroying

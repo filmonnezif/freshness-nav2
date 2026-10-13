@@ -1,0 +1,19 @@
+[INFO] [1789798612.750169862] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798613.050919729] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Configuring
+[INFO] [1789798613.146589758] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798613.184569025] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798613.364669733] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Activating
+[INFO] [1789798613.364789544] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789798614.495224362] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798619.560154180] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798619.561503524] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789798619.561617145] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Deactivating
+[INFO] [1789798619.561653669] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798619.578323059] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Cleaning up
+[INFO] [1789798619.579839088] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798619.579920311] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798619.615403996] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798619.646197338] [freshness_probe.v5_85046.obs_noscan_startup_r03.periodic_cm]: Destroying

@@ -1,0 +1,9 @@
+We obtained 640 paired endpoint evaluations from 80 trials. Of the 120 availability-control evaluations, 119 passed. Across all scenarios, N, W, P, C, F, O, E, and G passed 30, 40, 30, 40, 39, 40, 40, 80 of 80 evaluations, respectively. These counts summarize the selected tests and do not estimate reliability in deployment.
+
+In healthy repetition 2, F first emitted zero after warmup at 2.772 s, while the published scan timestamps were still valid relative to the published clock. We did not record the filter's local clock-receipt state, so the trace alone cannot explain the interruption.
+
+Under command loss, N and P passed 0/5 and 0/5, while W and C passed 5/5 and 5/5. With frozen scan timestamps, native CM passed 0/5 under the chronology deadline, while O passed 5/5. The difference is between detecting the duplicate promptly and waiting for the observation to become stale.
+
+The availability controls included failures: Healthy / F: 4/5. These failures remain in the reported results and show why stopping performance must be considered alongside availability.
+
+Across command, scan, and epoch recovery, G passed 5/5, 5/5, 5/5 combined stop-and-resume tests, respectively. In epoch recovery, O passed 0/5 availability checks, while E passed 5/5. The artifact reports the stopping and resumption judgments separately.

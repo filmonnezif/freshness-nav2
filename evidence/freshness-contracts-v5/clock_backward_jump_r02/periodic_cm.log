@@ -1,0 +1,21 @@
+[INFO] [1789799253.993529166] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799254.202910199] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Configuring
+[INFO] [1789799254.306024512] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799254.326798985] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799254.538485811] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Activating
+[INFO] [1789799254.538597741] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789799255.917751645] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799258.118518179] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Robot to continue normal operation
+[WARN] [1789799259.102784568] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1789799261.359802775] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799261.360076541] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789799261.360258160] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Deactivating
+[INFO] [1789799261.360304919] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789799261.370889787] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Cleaning up
+[INFO] [1789799261.371019749] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799261.371045879] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799261.395367789] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789799261.427660804] [freshness_probe.v5_85046.clock_backward_jump_r02.periodic_cm]: Destroying

@@ -1,0 +1,32 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+    smoothing_frequency: 50.0
+    feedback: OPEN_LOOP
+    scale_velocities: false
+    max_velocity: [0.22, 0.0, 1.0]
+    min_velocity: [-0.22, 0.0, -1.0]
+    max_accel: [2.5, 0.0, 3.2]
+    max_decel: [-2.5, 0.0, -3.2]
+    deadband_velocity: [0.0, 0.0, 0.0]
+    velocity_timeout: 0.30
+    enable_stamped_cmd_vel: false
+    base_frame_id: probe_base
+    odom_frame_id: probe_base
+    base_shift_correction: false
+    source_timeout: 1.0
+    stop_pub_timeout: 10.0
+    transform_tolerance: 0.1
+    polygons: [Stop]
+    Stop:
+      type: polygon
+      points: "[[0.3, 0.3], [0.3, -0.3], [-0.3, -0.3], [-0.3, 0.3]]"
+      action_type: stop
+      min_points: 1
+      visualize: false
+      enabled: true
+    observation_sources: [scan]
+    scan:
+      type: scan
+      topic: /freshness_probe/v5_19/healthy_r00/scan
+      enabled: true

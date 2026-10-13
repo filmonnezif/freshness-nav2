@@ -1,0 +1,20 @@
+[INFO] [1789799070.815157139] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: 
+	g_order_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799071.571552939] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Configuring
+[INFO] [1789799071.649881030] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799071.676342794] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799071.892147100] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Activating
+[INFO] [1789799071.892356583] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Creating bond (g_order_cm) to lifecycle manager.
+[WARN] [1789799072.347651817] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799075.167501897] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Robot to continue normal operation
+[INFO] [1789799078.414198701] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799078.414622826] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_order_cm)
+[INFO] [1789799078.416707243] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Deactivating
+[INFO] [1789799078.418039952] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Destroying bond (g_order_cm) to lifecycle manager.
+[INFO] [1789799078.449237540] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Cleaning up
+[INFO] [1789799078.449405489] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799078.449438609] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799078.506105756] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Destroying bond (g_order_cm) to lifecycle manager.
+[INFO] [1789799078.671675316] [freshness_probe.v5_85046.clock_loss_r00.g_order_cm]: Destroying

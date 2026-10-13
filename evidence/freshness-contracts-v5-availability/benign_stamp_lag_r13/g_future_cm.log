@@ -1,0 +1,20 @@
+[INFO] [1791880615.752499757] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: 
+	g_future_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880615.979967769] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Configuring
+[INFO] [1791880616.015521769] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880616.021363269] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880616.193847202] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Activating
+[INFO] [1791880616.193934215] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Creating bond (g_future_cm) to lifecycle manager.
+[WARN] [1791880619.447151198] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880619.708491337] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Robot to continue normal operation
+[INFO] [1791880622.925034639] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880622.925269490] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_future_cm)
+[INFO] [1791880622.925436396] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Deactivating
+[INFO] [1791880622.925503817] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1791880622.937532677] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Cleaning up
+[INFO] [1791880622.937714232] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880622.937756568] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880622.982431069] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1791880623.009092554] [freshness_probe.v5_19.benign_stamp_lag_r13.g_future_cm]: Destroying

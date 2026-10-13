@@ -1,0 +1,20 @@
+[INFO] [1789798771.674571913] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: 
+	g_future_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798771.844162504] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Configuring
+[INFO] [1789798771.984021027] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798772.015531458] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798772.109568858] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Activating
+[INFO] [1789798772.109672525] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Creating bond (g_future_cm) to lifecycle manager.
+[WARN] [1789798772.948751807] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798775.343657549] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Robot to continue normal operation
+[INFO] [1789798778.601269478] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798778.601590327] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_future_cm)
+[INFO] [1789798778.601743449] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Deactivating
+[INFO] [1789798778.601787652] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789798778.612557413] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Cleaning up
+[INFO] [1789798778.612664339] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798778.612684685] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798778.644669067] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789798778.690231422] [freshness_probe.v5_85046.cmd_loss_r01.g_future_cm]: Destroying

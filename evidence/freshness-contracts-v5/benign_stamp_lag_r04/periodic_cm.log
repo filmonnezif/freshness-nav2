@@ -1,0 +1,20 @@
+[INFO] [1789798788.456613778] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798788.560586890] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Configuring
+[INFO] [1789798788.585716410] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798788.592387034] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798788.787569393] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Activating
+[INFO] [1789798788.787894052] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789798789.724102682] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798792.383714428] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Robot to continue normal operation
+[INFO] [1789798795.605935795] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798795.606286820] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789798795.606532405] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Deactivating
+[INFO] [1789798795.606626935] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798795.626707471] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Cleaning up
+[INFO] [1789798795.626801302] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798795.626820347] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798795.630122441] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798795.737961301] [freshness_probe.v5_85046.benign_stamp_lag_r04.periodic_cm]: Destroying

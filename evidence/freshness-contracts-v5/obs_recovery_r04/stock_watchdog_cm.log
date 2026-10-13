@@ -1,0 +1,43 @@
+[INFO] [1789799221.866700754] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799221.996687721] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Configuring
+[INFO] [1789799222.090174442] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799222.164500159] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799222.435049181] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Activating
+[INFO] [1789799222.435179203] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1789799224.867952401] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799225.168162098] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Robot to continue normal operation
+[WARN] [1789799227.087875817] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.015864 seconds. Ignoring the source.
+[WARN] [1789799227.088922918] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[WARN] [1789799227.109848331] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.040586 seconds. Ignoring the source.
+[WARN] [1789799227.128149382] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.063380 seconds. Ignoring the source.
+[WARN] [1789799227.149706824] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.084217 seconds. Ignoring the source.
+[WARN] [1789799227.167851161] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.106705 seconds. Ignoring the source.
+[WARN] [1789799227.188078209] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.118892 seconds. Ignoring the source.
+[WARN] [1789799227.210422646] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.139689 seconds. Ignoring the source.
+[WARN] [1789799227.228374287] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.162476 seconds. Ignoring the source.
+[WARN] [1789799227.248229757] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.184195 seconds. Ignoring the source.
+[WARN] [1789799227.267881148] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.194965 seconds. Ignoring the source.
+[WARN] [1789799227.291965954] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.220980 seconds. Ignoring the source.
+[WARN] [1789799227.311347695] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.243601 seconds. Ignoring the source.
+[WARN] [1789799227.331954383] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.265679 seconds. Ignoring the source.
+[WARN] [1789799227.349776339] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.277543 seconds. Ignoring the source.
+[WARN] [1789799227.369031376] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.299589 seconds. Ignoring the source.
+[WARN] [1789799227.388925645] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.324134 seconds. Ignoring the source.
+[WARN] [1789799227.408221850] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.335648 seconds. Ignoring the source.
+[WARN] [1789799227.429200119] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.359057 seconds. Ignoring the source.
+[WARN] [1789799227.448027582] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.380079 seconds. Ignoring the source.
+[WARN] [1789799227.468289892] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.404931 seconds. Ignoring the source.
+[WARN] [1789799227.487789177] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.417164 seconds. Ignoring the source.
+[INFO] [1789799227.507966857] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Robot to continue normal operation
+[INFO] [1789799228.402313186] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799228.402531117] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1789799228.402770951] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Deactivating
+[INFO] [1789799228.402863308] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789799228.416455692] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Cleaning up
+[INFO] [1789799228.416671109] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799228.416720730] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799228.439700509] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789799228.495776748] [freshness_probe.v5_85046.obs_recovery_r04.stock_watchdog_cm]: Destroying

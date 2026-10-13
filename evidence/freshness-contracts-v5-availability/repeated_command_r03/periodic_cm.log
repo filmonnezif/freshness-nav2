@@ -1,0 +1,20 @@
+[INFO] [1791880599.817200017] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880603.144215468] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Configuring
+[INFO] [1791880603.174942264] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880603.190775728] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880603.306646636] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Activating
+[INFO] [1791880603.307421605] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1791880603.335588227] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880603.631539893] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Robot to continue normal operation
+[INFO] [1791880606.838501132] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880606.838748805] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1791880606.839681510] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Deactivating
+[INFO] [1791880606.839744029] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1791880606.851090620] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Cleaning up
+[INFO] [1791880606.851219421] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880606.851249610] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880606.870420491] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1791880606.916908542] [freshness_probe.v5_19.repeated_command_r03.periodic_cm]: Destroying

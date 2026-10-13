@@ -1,0 +1,20 @@
+[INFO] [1789798671.069289582] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: 
+	g_order_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798671.223410934] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Configuring
+[INFO] [1789798671.298085987] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798671.379836207] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798671.540886393] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Activating
+[INFO] [1789798671.541043424] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Creating bond (g_order_cm) to lifecycle manager.
+[WARN] [1789798672.042954406] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798674.805855310] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Robot to continue normal operation
+[INFO] [1789798678.048732076] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798678.049033021] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_order_cm)
+[INFO] [1789798678.049296402] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Deactivating
+[INFO] [1789798678.049385704] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Destroying bond (g_order_cm) to lifecycle manager.
+[INFO] [1789798678.070735894] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Cleaning up
+[INFO] [1789798678.070828188] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798678.070851889] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798678.079701645] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Destroying bond (g_order_cm) to lifecycle manager.
+[INFO] [1789798678.118153368] [freshness_probe.v5_85046.clock_stall_r02.g_order_cm]: Destroying

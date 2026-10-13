@@ -1,0 +1,86 @@
+[INFO] [1789798645.029011054] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: 
+	g_epoch_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798649.465383706] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Configuring
+[INFO] [1789798649.537647845] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798649.597404534] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798649.677843362] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Activating
+[INFO] [1789798649.678107041] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Creating bond (g_epoch_cm) to lifecycle manager.
+[WARN] [1789798649.709855706] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798650.051720393] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Robot to continue normal operation
+[WARN] [1789798651.968984704] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.010935 seconds. Ignoring the source.
+[WARN] [1789798651.969131506] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[WARN] [1789798651.989671470] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.032647 seconds. Ignoring the source.
+[WARN] [1789798652.011601342] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.056699 seconds. Ignoring the source.
+[WARN] [1789798652.034031016] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.078712 seconds. Ignoring the source.
+[WARN] [1789798652.052891503] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.100876 seconds. Ignoring the source.
+[WARN] [1789798652.069408091] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.111251 seconds. Ignoring the source.
+[WARN] [1789798652.089641937] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.132666 seconds. Ignoring the source.
+[WARN] [1789798652.112932714] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.157182 seconds. Ignoring the source.
+[WARN] [1789798652.131012277] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.178730 seconds. Ignoring the source.
+[WARN] [1789798652.149791825] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.188815 seconds. Ignoring the source.
+[WARN] [1789798652.169170788] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.213253 seconds. Ignoring the source.
+[WARN] [1789798652.195767964] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.244657 seconds. Ignoring the source.
+[WARN] [1789798652.238656117] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.281920 seconds. Ignoring the source.
+[WARN] [1789798652.251791842] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.295301 seconds. Ignoring the source.
+[WARN] [1789798652.268969811] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.318896 seconds. Ignoring the source.
+[WARN] [1789798652.288922494] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.331940 seconds. Ignoring the source.
+[WARN] [1789798652.320224679] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.366512 seconds. Ignoring the source.
+[WARN] [1789798652.332892572] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.378880 seconds. Ignoring the source.
+[WARN] [1789798652.351589731] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.401551 seconds. Ignoring the source.
+[WARN] [1789798652.368944605] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.412859 seconds. Ignoring the source.
+[WARN] [1789798652.390600007] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.437127 seconds. Ignoring the source.
+[WARN] [1789798652.416450055] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.459504 seconds. Ignoring the source.
+[WARN] [1789798652.430456031] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.469776 seconds. Ignoring the source.
+[WARN] [1789798652.449423680] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.492850 seconds. Ignoring the source.
+[WARN] [1789798652.476996033] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.526034 seconds. Ignoring the source.
+[WARN] [1789798652.490091472] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.537036 seconds. Ignoring the source.
+[WARN] [1789798652.512787097] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.558868 seconds. Ignoring the source.
+[WARN] [1789798652.531995233] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.579689 seconds. Ignoring the source.
+[WARN] [1789798652.553260627] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.601154 seconds. Ignoring the source.
+[WARN] [1789798652.572238767] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.611846 seconds. Ignoring the source.
+[WARN] [1789798652.594259508] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.637886 seconds. Ignoring the source.
+[WARN] [1789798652.613952582] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.660005 seconds. Ignoring the source.
+[WARN] [1789798652.636279504] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.680890 seconds. Ignoring the source.
+[WARN] [1789798652.661644887] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.705444 seconds. Ignoring the source.
+[WARN] [1789798652.671922266] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.716780 seconds. Ignoring the source.
+[WARN] [1789798652.691146923] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.739985 seconds. Ignoring the source.
+[WARN] [1789798652.710617932] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.751087 seconds. Ignoring the source.
+[WARN] [1789798652.734543639] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.773296 seconds. Ignoring the source.
+[WARN] [1789798652.749296585] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.795518 seconds. Ignoring the source.
+[WARN] [1789798652.771891313] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.820634 seconds. Ignoring the source.
+[WARN] [1789798652.788839240] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.833388 seconds. Ignoring the source.
+[WARN] [1789798652.810559128] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.856947 seconds. Ignoring the source.
+[WARN] [1789798652.832131250] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.870018 seconds. Ignoring the source.
+[WARN] [1789798652.856929236] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.897295 seconds. Ignoring the source.
+[WARN] [1789798652.872934235] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.919223 seconds. Ignoring the source.
+[WARN] [1789798652.895799046] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.930495 seconds. Ignoring the source.
+[WARN] [1789798652.910272215] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.956239 seconds. Ignoring the source.
+[WARN] [1789798652.930169269] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.979047 seconds. Ignoring the source.
+[WARN] [1789798652.950024271] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.990981 seconds. Ignoring the source.
+[WARN] [1789798652.969452565] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.012842 seconds. Ignoring the source.
+[WARN] [1789798652.993371524] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.038142 seconds. Ignoring the source.
+[WARN] [1789798653.010582259] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.058807 seconds. Ignoring the source.
+[WARN] [1789798653.038249517] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.080781 seconds. Ignoring the source.
+[WARN] [1789798653.051985308] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.093340 seconds. Ignoring the source.
+[WARN] [1789798653.069609452] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.116813 seconds. Ignoring the source.
+[WARN] [1789798653.090684219] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.129595 seconds. Ignoring the source.
+[WARN] [1789798653.113867376] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.154445 seconds. Ignoring the source.
+[WARN] [1789798653.129333237] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.167376 seconds. Ignoring the source.
+[WARN] [1789798653.153810752] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.193351 seconds. Ignoring the source.
+[WARN] [1789798653.171820135] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.214518 seconds. Ignoring the source.
+[WARN] [1789798653.191284229] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.236669 seconds. Ignoring the source.
+[WARN] [1789798653.209503501] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.251986 seconds. Ignoring the source.
+[WARN] [1789798653.234175672] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.275770 seconds. Ignoring the source.
+[WARN] [1789798653.249423788] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.275770 seconds. Ignoring the source.
+[WARN] [1789798653.269255598] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 2.275770 seconds. Ignoring the source.
+[INFO] [1789798653.281362616] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798653.281582450] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_epoch_cm)
+[INFO] [1789798653.281749606] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Deactivating
+[INFO] [1789798653.281813683] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1789798653.294635701] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Cleaning up
+[INFO] [1789798653.296183083] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798653.296268700] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798653.304362626] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1789798653.400419947] [freshness_probe.v5_85046.chrono_duplicate_stamps_r01.g_epoch_cm]: Destroying

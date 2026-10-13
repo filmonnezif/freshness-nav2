@@ -1,0 +1,20 @@
+[INFO] [1791880923.062736616] [freshness_probe.v5_19.repeated_command_r04.native_cm]: 
+	native_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880923.208108407] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Configuring
+[INFO] [1791880923.223998976] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880923.228656583] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880923.399410265] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Activating
+[INFO] [1791880923.399515571] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Creating bond (native_cm) to lifecycle manager.
+[WARN] [1791880926.387548843] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880926.911178764] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Robot to continue normal operation
+[INFO] [1791880930.077970560] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880930.078098708] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Running Nav2 LifecycleNode rcl preshutdown (native_cm)
+[INFO] [1791880930.078183456] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Deactivating
+[INFO] [1791880930.078212498] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1791880930.088668847] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Cleaning up
+[INFO] [1791880930.088831591] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880930.088868253] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880930.106576901] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1791880930.192327254] [freshness_probe.v5_19.repeated_command_r04.native_cm]: Destroying

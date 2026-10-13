@@ -1,0 +1,20 @@
+[INFO] [1789798894.776259406] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798895.030209768] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Configuring
+[INFO] [1789798895.101986727] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798895.148694638] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798895.313198252] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Activating
+[INFO] [1789798895.313319649] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789798896.494166700] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798898.656574037] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Robot to continue normal operation
+[INFO] [1789798901.899315214] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798901.899514494] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789798901.899668782] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Deactivating
+[INFO] [1789798901.899714363] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798901.917883599] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Cleaning up
+[INFO] [1789798901.918980798] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798901.921386954] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798901.950548714] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798902.012796395] [freshness_probe.v5_85046.chrono_reordered_stamps_r03.periodic_cm]: Destroying

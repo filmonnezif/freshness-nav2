@@ -1,0 +1,20 @@
+[INFO] [1789798987.055496010] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: 
+	guarded_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798987.196401784] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Configuring
+[INFO] [1789798987.274312239] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798987.342424136] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798987.490238051] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Activating
+[INFO] [1789798987.490358609] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Creating bond (guarded_cm) to lifecycle manager.
+[WARN] [1789798988.576207877] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798991.079583302] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Robot to continue normal operation
+[INFO] [1789798994.326088798] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798994.326385049] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Running Nav2 LifecycleNode rcl preshutdown (guarded_cm)
+[INFO] [1789798994.327184188] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Deactivating
+[INFO] [1789798994.327303882] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789798994.342015494] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Cleaning up
+[INFO] [1789798994.343122202] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798994.343181330] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798994.356984543] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789798994.402439641] [freshness_probe.v5_85046.cmd_recovery_r01.guarded_cm]: Destroying

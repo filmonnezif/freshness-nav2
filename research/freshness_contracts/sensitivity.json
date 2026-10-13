@@ -1,0 +1,134 @@
+{
+  "baseline": {
+    "delta_revoke": 0.15,
+    "delta_recover": 0.3,
+    "gap_max": 0.15
+  },
+  "rows": [
+    {
+      "parameter": "delta_revoke",
+      "value_s": 0.1,
+      "totals": {
+        "N": 30,
+        "W": 36,
+        "P": 30,
+        "C": 40,
+        "F": 39,
+        "O": 40,
+        "E": 40,
+        "G": 80
+      },
+      "changed": [
+        {
+          "case": "cmd_loss",
+          "mode": "W",
+          "baseline": 5,
+          "varied": 4
+        },
+        {
+          "case": "cmd_recovery",
+          "mode": "W",
+          "baseline": 5,
+          "varied": 2
+        }
+      ]
+    },
+    {
+      "parameter": "delta_revoke",
+      "value_s": 0.2,
+      "totals": {
+        "N": 30,
+        "W": 40,
+        "P": 30,
+        "C": 40,
+        "F": 39,
+        "O": 40,
+        "E": 40,
+        "G": 80
+      },
+      "changed": []
+    },
+    {
+      "parameter": "delta_revoke",
+      "value_s": 0.25,
+      "totals": {
+        "N": 30,
+        "W": 40,
+        "P": 30,
+        "C": 40,
+        "F": 39,
+        "O": 40,
+        "E": 40,
+        "G": 80
+      },
+      "changed": []
+    },
+    {
+      "parameter": "delta_recover",
+      "value_s": 0.2,
+      "totals": {
+        "N": 30,
+        "W": 40,
+        "P": 30,
+        "C": 40,
+        "F": 39,
+        "O": 40,
+        "E": 40,
+        "G": 80
+      },
+      "changed": []
+    },
+    {
+      "parameter": "delta_recover",
+      "value_s": 0.5,
+      "totals": {
+        "N": 30,
+        "W": 40,
+        "P": 30,
+        "C": 40,
+        "F": 39,
+        "O": 40,
+        "E": 40,
+        "G": 80
+      },
+      "changed": []
+    },
+    {
+      "parameter": "gap_max",
+      "value_s": 0.1,
+      "totals": {
+        "N": 30,
+        "W": 40,
+        "P": 30,
+        "C": 40,
+        "F": 39,
+        "O": 40,
+        "E": 39,
+        "G": 80
+      },
+      "changed": [
+        {
+          "case": "healthy",
+          "mode": "E",
+          "baseline": 5,
+          "varied": 4
+        }
+      ]
+    },
+    {
+      "parameter": "gap_max",
+      "value_s": 0.25,
+      "totals": {
+        "N": 30,
+        "W": 40,
+        "P": 30,
+        "C": 40,
+        "F": 39,
+        "O": 40,
+        "E": 40,
+        "G": 80
+      },
+      "changed": []
+    }
+  ]
+}

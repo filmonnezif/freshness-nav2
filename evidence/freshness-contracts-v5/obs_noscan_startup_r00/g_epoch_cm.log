@@ -1,0 +1,19 @@
+[INFO] [1789798952.724312904] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: 
+	g_epoch_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798953.572512334] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Configuring
+[INFO] [1789798953.620801195] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798953.633410776] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798953.920637029] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Activating
+[INFO] [1789798953.923411178] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Creating bond (g_epoch_cm) to lifecycle manager.
+[WARN] [1789798954.699643142] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798960.715374992] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798960.715572220] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_epoch_cm)
+[INFO] [1789798960.715780779] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Deactivating
+[INFO] [1789798960.715840990] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1789798960.726890181] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Cleaning up
+[INFO] [1789798960.727213136] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798960.727282863] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798960.733009190] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1789798960.801374182] [freshness_probe.v5_85046.obs_noscan_startup_r00.g_epoch_cm]: Destroying

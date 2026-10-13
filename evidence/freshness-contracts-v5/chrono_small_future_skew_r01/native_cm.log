@@ -1,0 +1,20 @@
+[INFO] [1789798813.188600045] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: 
+	native_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798813.906615477] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Configuring
+[INFO] [1789798813.958217825] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798813.971839267] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798814.239101355] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Activating
+[INFO] [1789798814.239281375] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Creating bond (native_cm) to lifecycle manager.
+[WARN] [1789798815.640000845] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798815.926001467] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Robot to continue normal operation
+[INFO] [1789798819.172473326] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798819.174514272] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Running Nav2 LifecycleNode rcl preshutdown (native_cm)
+[INFO] [1789798819.174720510] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Deactivating
+[INFO] [1789798819.174772818] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789798819.188002348] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Cleaning up
+[INFO] [1789798819.188417079] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798819.188965134] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798819.217146973] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789798819.264665699] [freshness_probe.v5_85046.chrono_small_future_skew_r01.native_cm]: Destroying

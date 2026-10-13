@@ -1,0 +1,20 @@
+[INFO] [1789799179.903071220] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: 
+	g_future_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799180.103562991] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Configuring
+[INFO] [1789799180.159904240] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799180.173044807] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799180.407149419] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Activating
+[INFO] [1789799180.407546758] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Creating bond (g_future_cm) to lifecycle manager.
+[WARN] [1789799181.762568952] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799184.005266199] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Robot to continue normal operation
+[INFO] [1789799187.232000969] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799187.232165980] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_future_cm)
+[INFO] [1789799187.232260328] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Deactivating
+[INFO] [1789799187.232292481] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789799187.246988924] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Cleaning up
+[INFO] [1789799187.248649257] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799187.249705333] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799187.253010192] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789799187.282746202] [freshness_probe.v5_85046.chrono_reordered_stamps_r00.g_future_cm]: Destroying

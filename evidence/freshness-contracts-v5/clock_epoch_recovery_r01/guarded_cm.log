@@ -1,0 +1,21 @@
+[INFO] [1789798679.198183057] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: 
+	guarded_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798679.305566311] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Configuring
+[INFO] [1789798679.437641610] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798679.463966614] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798679.581085436] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Activating
+[INFO] [1789798679.581520413] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Creating bond (guarded_cm) to lifecycle manager.
+[WARN] [1789798680.635609625] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798682.898382458] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Robot to continue normal operation
+[WARN] [1789798683.894816182] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1789798686.133498705] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798686.133694483] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Running Nav2 LifecycleNode rcl preshutdown (guarded_cm)
+[INFO] [1789798686.133811402] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Deactivating
+[INFO] [1789798686.133844716] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789798686.144928223] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Cleaning up
+[INFO] [1789798686.145075112] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798686.145101612] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798686.171717856] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789798686.193246515] [freshness_probe.v5_85046.clock_epoch_recovery_r01.guarded_cm]: Destroying

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Freshness Is a Pipeline Property: Testing Temporal Obligations in Nav2 Command Chains (artifact)"
+authors:
+  - family-names: Nezif
+    given-names: Filmon
+    affiliation: Higher Colleges of Technology
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "Freshness Is a Pipeline Property: Testing Temporal Obligations in Nav2 Command Chains"
+  authors:
+    - family-names: Nezif
+      given-names: Filmon
+      affiliation: Higher Colleges of Technology
+  conference:
+    name: "ITT 2026"
+  publisher:
+    name: IEEE
+  year: 2026

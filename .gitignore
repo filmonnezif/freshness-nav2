@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/freshness_contracts.pdf
+evidence/reproduction/
+evidence/smoke-test/

@@ -1,0 +1,20 @@
+[INFO] [1789798828.811164750] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: 
+	g_future_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798829.139876140] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Configuring
+[INFO] [1789798829.184966642] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798829.196031843] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798829.350380114] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Activating
+[INFO] [1789798829.350866963] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Creating bond (g_future_cm) to lifecycle manager.
+[WARN] [1789798830.072942645] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798832.153398153] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Robot to continue normal operation
+[INFO] [1789798835.402519658] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798835.402717214] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_future_cm)
+[INFO] [1789798835.402856549] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Deactivating
+[INFO] [1789798835.402926969] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789798835.413951253] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Cleaning up
+[INFO] [1789798835.414085832] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798835.414120012] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798835.463443826] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Destroying bond (g_future_cm) to lifecycle manager.
+[INFO] [1789798835.509591647] [freshness_probe.v5_85046.repeated_command_r01.g_future_cm]: Destroying

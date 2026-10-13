@@ -1,0 +1,20 @@
+[INFO] [1789799172.020696768] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: 
+	g_epoch_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799172.593857902] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Configuring
+[INFO] [1789799172.772035545] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799172.858778981] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799173.276003054] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Activating
+[INFO] [1789799173.276258784] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Creating bond (g_epoch_cm) to lifecycle manager.
+[WARN] [1789799173.666171549] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799175.434480201] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Robot to continue normal operation
+[INFO] [1789799178.672799106] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799178.672921874] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_epoch_cm)
+[INFO] [1789799178.673436998] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Deactivating
+[INFO] [1789799178.673474092] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1789799178.685126723] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Cleaning up
+[INFO] [1789799178.685189714] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799178.685207918] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799178.689498359] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1789799178.788838965] [freshness_probe.v5_85046.cmd_recovery_r04.g_epoch_cm]: Destroying

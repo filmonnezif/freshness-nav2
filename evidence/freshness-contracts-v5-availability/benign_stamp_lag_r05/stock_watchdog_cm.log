@@ -1,0 +1,20 @@
+[INFO] [1791880718.996839013] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880720.110183254] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Configuring
+[INFO] [1791880720.203560458] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880720.211498636] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880720.410151842] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Activating
+[INFO] [1791880720.410238382] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1791880722.391574957] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880722.650974568] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Robot to continue normal operation
+[INFO] [1791880725.871156309] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880725.871353344] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1791880725.871476467] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Deactivating
+[INFO] [1791880725.872354692] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1791880725.893675533] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Cleaning up
+[INFO] [1791880725.893914871] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880725.893961079] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880725.939376090] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1791880726.015163737] [freshness_probe.v5_19.benign_stamp_lag_r05.stock_watchdog_cm]: Destroying

@@ -1,0 +1,20 @@
+[INFO] [1789799063.146672292] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: 
+	g_order_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799063.228824947] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Configuring
+[INFO] [1789799063.307219220] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799063.341955739] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799063.634442713] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Activating
+[INFO] [1789799063.634614723] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Creating bond (g_order_cm) to lifecycle manager.
+[WARN] [1789799064.460028845] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799066.561794382] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Robot to continue normal operation
+[INFO] [1789799069.787492939] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799069.787851794] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_order_cm)
+[INFO] [1789799069.788636681] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Deactivating
+[INFO] [1789799069.788872560] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Destroying bond (g_order_cm) to lifecycle manager.
+[INFO] [1789799069.803595944] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Cleaning up
+[INFO] [1789799069.803724470] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799069.803752034] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799069.821227108] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Destroying bond (g_order_cm) to lifecycle manager.
+[INFO] [1789799069.844976311] [freshness_probe.v5_85046.repeated_command_r02.g_order_cm]: Destroying

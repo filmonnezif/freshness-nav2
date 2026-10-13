@@ -1,0 +1,6183 @@
+{
+  "version": 5,
+  "ros_domain_id": 143,
+  "ablation_modes": [
+    "native",
+    "stock_watchdog",
+    "periodic",
+    "g_cmd",
+    "g_future",
+    "g_order",
+    "g_epoch",
+    "guarded"
+  ],
+  "mode_guards": {
+    "native": [],
+    "stock_watchdog": [],
+    "periodic": [],
+    "g_cmd": [
+      "cmd"
+    ],
+    "g_future": [
+      "future"
+    ],
+    "g_order": [
+      "order"
+    ],
+    "g_epoch": [
+      "epoch"
+    ],
+    "guarded": [
+      "cmd",
+      "future",
+      "order",
+      "epoch",
+      "clock"
+    ]
+  },
+  "source_hashes": {
+    "probe.py": "0c2b3964b9c61b19d83d1d76d6f65b47264615e4b5238c6a515dd87aaff80240",
+    "guards.py": "0681766c5aa653dbc3215607307b416190b52f9c733a736c365d04d3bfaa0581",
+    "guard_node.py": "ca1e98891bcce779ac8c60ae5c5cba1fce4aeb643c8b540f98798512f6e794c4",
+    "contracts.py": "fef87b6b5805a0ac87be4a7be6c9941ceaae5e9d34996b3c1e973c6161616b1b",
+    "oracle.py": "1e1eb103b373315cb5662437b459be9bb7acca0514466c6e1de5da87a83d3eca",
+    "taxonomy.py": "223ed11326be6efc6fa948f18d87e33a5acc74d86a1eb3966a1bd325c8a31fbd",
+    "PROTOCOL.md": "1642576b3529f247174eb4b692041f3527978eb248d9a2c80ad4e3f29a971d39"
+  },
+  "seed": 20261013,
+  "schedule": [
+    [
+      "repeated_command",
+      3
+    ],
+    [
+      "healthy",
+      17
+    ],
+    [
+      "benign_stamp_lag",
+      13
+    ],
+    [
+      "healthy",
+      8
+    ],
+    [
+      "repeated_command",
+      10
+    ],
+    [
+      "healthy",
+      14
+    ],
+    [
+      "healthy",
+      18
+    ],
+    [
+      "benign_stamp_lag",
+      11
+    ],
+    [
+      "healthy",
+      11
+    ],
+    [
+      "healthy",
+      0
+    ],
+    [
+      "repeated_command",
+      17
+    ],
+    [
+      "benign_stamp_lag",
+      15
+    ],
+    [
+      "repeated_command",
+      13
+    ],
+    [
+      "healthy",
+      9
+    ],
+    [
+      "repeated_command",
+      15
+    ],
+    [
+      "benign_stamp_lag",
+      5
+    ],
+    [
+      "benign_stamp_lag",
+      8
+    ],
+    [
+      "repeated_command",
+      5
+    ],
+    [
+      "repeated_command",
+      14
+    ],
+    [
+      "benign_stamp_lag",
+      7
+    ],
+    [
+      "benign_stamp_lag",
+      4
+    ],
+    [
+      "benign_stamp_lag",
+      16
+    ],
+    [
+      "benign_stamp_lag",
+      3
+    ],
+    [
+      "repeated_command",
+      7
+    ],
+    [
+      "benign_stamp_lag",
+      6
+    ],
+    [
+      "healthy",
+      6
+    ],
+    [
+      "repeated_command",
+      1
+    ],
+    [
+      "benign_stamp_lag",
+      2
+    ],
+    [
+      "benign_stamp_lag",
+      19
+    ],
+    [
+      "healthy",
+      7
+    ],
+    [
+      "benign_stamp_lag",
+      14
+    ],
+    [
+      "repeated_command",
+      0
+    ],
+    [
+      "healthy",
+      3
+    ],
+    [
+      "benign_stamp_lag",
+      10
+    ],
+    [
+      "benign_stamp_lag",
+      9
+    ],
+    [
+      "healthy",
+      19
+    ],
+    [
+      "repeated_command",
+      2
+    ],
+    [
+      "healthy",
+      16
+    ],
+    [
+      "benign_stamp_lag",
+      17
+    ],
+    [
+      "repeated_command",
+      11
+    ],
+    [
+      "repeated_command",
+      18
+    ],
+    [
+      "repeated_command",
+      4
+    ],
+    [
+      "benign_stamp_lag",
+      0
+    ],
+    [
+      "benign_stamp_lag",
+      1
+    ],
+    [
+      "benign_stamp_lag",
+      12
+    ],
+    [
+      "healthy",
+      5
+    ],
+    [
+      "healthy",
+      1
+    ],
+    [
+      "repeated_command",
+      12
+    ],
+    [
+      "benign_stamp_lag",
+      18
+    ],
+    [
+      "repeated_command",
+      16
+    ],
+    [
+      "repeated_command",
+      19
+    ],
+    [
+      "repeated_command",
+      8
+    ],
+    [
+      "healthy",
+      2
+    ],
+    [
+      "healthy",
+      10
+    ],
+    [
+      "repeated_command",
+      6
+    ],
+    [
+      "healthy",
+      15
+    ],
+    [
+      "healthy",
+      12
+    ],
+    [
+      "healthy",
+      4
+    ],
+    [
+      "repeated_command",
+      9
+    ],
+    [
+      "healthy",
+      13
+    ]
+  ],
+  "repeats": 20,
+  "cases": [
+    "healthy",
+    "benign_stamp_lag",
+    "repeated_command"
+  ],
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "cpu_count": 12,
+  "packages": "ros-jazzy-nav2-collision-monitor\t1.3.13-1noble.20260903.031125\nros-jazzy-nav2-velocity-smoother\t1.3.13-1noble.20260903.025045",
+  "scope": "Finite-trace endpoint contracts, nominal host conditions, no robot base",
+  "complete": true,
+  "results": [
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 3,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3793.308780302,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 17,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3801.493364063,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 13,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3809.393088217,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 8,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3817.122386644,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 10,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3824.942248891,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 14,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3832.7549932,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 18,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3840.602220402,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 11,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3848.522338163,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 11,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3856.879688824,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 0,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3865.332640131,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 17,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3873.506454098,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 15,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3881.268198745,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 13,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3889.171226292,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 9,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3897.001949043,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 15,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3904.777352193,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 5,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3912.338367845,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 8,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3920.220721561,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 5,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3927.977463166,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 14,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3935.815604777,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 7,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3943.764059788,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 4,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3951.493850861,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 16,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3959.346228395,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 3,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3967.077505394,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 7,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3974.747066714,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 6,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3982.52239197,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 6,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3990.657318934,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 1,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 3998.445422313,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 2,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4006.205279708,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 19,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4014.142344789,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 7,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4021.897309908,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 14,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4029.690068349,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 0,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4037.433765767,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 3,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4045.220096024,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 10,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4052.969903434,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 9,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4061.220887118,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 19,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4068.963111554,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 2,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4077.186820773,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 16,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4085.017712782,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 17,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4092.768575844,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 11,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4100.620219217,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 18,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4108.809179786,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 4,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4116.556424278,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 0,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4124.441757242,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 1,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4132.198879816,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 12,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4139.979972072,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 5,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4147.708371544,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 1,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4155.937637714,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 12,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4163.666815851,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "benign_stamp_lag",
+      "obligation": "availability",
+      "repeat": 18,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4171.978553526,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 16,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4179.783501701,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 19,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4187.567121158,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 8,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4195.299622706,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 2,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4202.846249804,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 10,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4210.766491203,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 6,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4219.186567417,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 15,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4226.917458509,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 12,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4235.161036554,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 4,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4242.953075091,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "repeated_command",
+      "obligation": "availability",
+      "repeat": 9,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4250.792656049,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    },
+    {
+      "case": "healthy",
+      "obligation": "availability",
+      "repeat": 13,
+      "cpu_load": false,
+      "horizon_s": 3.2,
+      "trial_start_monotonic": 4258.586372186,
+      "summary": {
+        "native": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "stock_watchdog": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "periodic": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_cmd": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_future": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_order": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "g_epoch": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        },
+        "guarded": {
+          "trigger_s": null,
+          "recovery_s": null,
+          "obligation": "availability",
+          "contract_pass": true,
+          "stop_pass": null,
+          "availability_pass": true,
+          "revoke_latency_s": null,
+          "recovery_latency_s": null,
+          "deadline_s": null
+        }
+      }
+    }
+  ]
+}

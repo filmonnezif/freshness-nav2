@@ -1,0 +1,20 @@
+[INFO] [1789799237.616112258] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: 
+	native_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799237.850840206] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Configuring
+[INFO] [1789799237.927285183] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799237.953949278] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799238.269582345] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Activating
+[INFO] [1789799238.269930373] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Creating bond (native_cm) to lifecycle manager.
+[WARN] [1789799240.903647625] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799241.633198939] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Robot to continue normal operation
+[INFO] [1789799244.873103267] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799244.873180576] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Running Nav2 LifecycleNode rcl preshutdown (native_cm)
+[INFO] [1789799244.873408976] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Deactivating
+[INFO] [1789799244.873479032] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789799244.887488069] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Cleaning up
+[INFO] [1789799244.888132888] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799244.889266071] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799244.893194326] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Destroying bond (native_cm) to lifecycle manager.
+[INFO] [1789799244.946578678] [freshness_probe.v5_85046.chrono_reordered_stamps_r02.native_cm]: Destroying

@@ -1,0 +1,20 @@
+[INFO] [1791880986.153948711] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: 
+	g_epoch_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880986.407311656] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Configuring
+[INFO] [1791880986.494253106] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880986.515364819] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880986.546630560] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Activating
+[INFO] [1791880986.546897273] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Creating bond (g_epoch_cm) to lifecycle manager.
+[WARN] [1791880989.797591909] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880990.097532444] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Robot to continue normal operation
+[INFO] [1791880993.307307478] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880993.307444555] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_epoch_cm)
+[INFO] [1791880993.307545932] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Deactivating
+[INFO] [1791880993.307575694] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1791880993.319752630] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Cleaning up
+[INFO] [1791880993.320862660] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880993.321628196] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880993.325187535] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Destroying bond (g_epoch_cm) to lifecycle manager.
+[INFO] [1791880993.367995872] [freshness_probe.v5_19.repeated_command_r16.g_epoch_cm]: Destroying

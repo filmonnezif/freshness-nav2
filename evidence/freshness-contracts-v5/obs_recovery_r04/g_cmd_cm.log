@@ -1,0 +1,43 @@
+[INFO] [1789799221.008298143] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799221.997475079] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Configuring
+[INFO] [1789799222.183984551] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799222.254732752] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799222.442396640] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Activating
+[INFO] [1789799222.486191134] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1789799222.878456455] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799225.158812987] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Robot to continue normal operation
+[WARN] [1789799227.082339867] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.015864 seconds. Ignoring the source.
+[WARN] [1789799227.083051146] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[WARN] [1789799227.099263124] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.029234 seconds. Ignoring the source.
+[WARN] [1789799227.120595171] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.050620 seconds. Ignoring the source.
+[WARN] [1789799227.141785099] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.074216 seconds. Ignoring the source.
+[WARN] [1789799227.159346939] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.095672 seconds. Ignoring the source.
+[WARN] [1789799227.179153039] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.118892 seconds. Ignoring the source.
+[WARN] [1789799227.198370123] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.128983 seconds. Ignoring the source.
+[WARN] [1789799227.217784342] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.151388 seconds. Ignoring the source.
+[WARN] [1789799227.237972920] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.173906 seconds. Ignoring the source.
+[WARN] [1789799227.258445331] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.194965 seconds. Ignoring the source.
+[WARN] [1789799227.289372310] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.220980 seconds. Ignoring the source.
+[WARN] [1789799227.299509262] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.231592 seconds. Ignoring the source.
+[WARN] [1789799227.318232312] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.255041 seconds. Ignoring the source.
+[WARN] [1789799227.345580108] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.277543 seconds. Ignoring the source.
+[WARN] [1789799227.364045255] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.299589 seconds. Ignoring the source.
+[WARN] [1789799227.378686317] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.310541 seconds. Ignoring the source.
+[WARN] [1789799227.401829442] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.335648 seconds. Ignoring the source.
+[WARN] [1789799227.418518506] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.348713 seconds. Ignoring the source.
+[WARN] [1789799227.438221943] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.369485 seconds. Ignoring the source.
+[WARN] [1789799227.458630379] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.392818 seconds. Ignoring the source.
+[WARN] [1789799227.478615323] [collision_monitor]: [scan]: Latest source and current collision monitor node timestamps differ on 1.417164 seconds. Ignoring the source.
+[INFO] [1789799227.498764071] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Robot to continue normal operation
+[INFO] [1789799228.405858471] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799228.406120777] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1789799228.406312682] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Deactivating
+[INFO] [1789799228.406359337] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789799228.419150132] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Cleaning up
+[INFO] [1789799228.419304355] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799228.419336960] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799228.457329531] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789799228.514399228] [freshness_probe.v5_85046.obs_recovery_r04.g_cmd_cm]: Destroying

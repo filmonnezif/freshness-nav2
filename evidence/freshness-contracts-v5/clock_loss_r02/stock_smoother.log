@@ -1,0 +1,14 @@
+[INFO] [1789798844.590877112] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: 
+	stock_smoother lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798844.882594057] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Configuring velocity smoother
+[INFO] [1789798845.284227459] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Activating
+[INFO] [1789798845.284406106] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Creating bond (stock_smoother) to lifecycle manager.
+[INFO] [1789798851.989019892] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798851.989601685] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Running Nav2 LifecycleNode rcl preshutdown (stock_smoother)
+[INFO] [1789798851.989699803] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Deactivating
+[INFO] [1789798851.994606106] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Destroying bond (stock_smoother) to lifecycle manager.
+[INFO] [1789798852.005173926] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Cleaning up
+[INFO] [1789798852.005269973] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Destroying bond (stock_smoother) to lifecycle manager.
+[INFO] [1789798852.032092510] [freshness_probe.v5_85046.clock_loss_r02.stock_smoother]: Destroying

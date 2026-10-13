@@ -1,0 +1,20 @@
+[INFO] [1789799147.732229731] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799147.732884685] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Configuring
+[INFO] [1789799147.823511157] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799147.879023080] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799148.042547232] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Activating
+[INFO] [1789799148.042727749] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789799150.833807508] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799151.261173468] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Robot to continue normal operation
+[INFO] [1789799154.433394707] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799154.433510927] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789799154.433608827] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Deactivating
+[INFO] [1789799154.433645984] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789799154.446472791] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Cleaning up
+[INFO] [1789799154.446815590] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799154.448388330] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799154.452843194] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789799154.467785826] [freshness_probe.v5_85046.cmd_loss_r00.periodic_cm]: Destroying

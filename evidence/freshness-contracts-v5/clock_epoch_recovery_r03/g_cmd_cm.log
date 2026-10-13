@@ -1,0 +1,21 @@
+[INFO] [1789798603.720337218] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798607.014538034] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Configuring
+[INFO] [1789798607.096243790] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798607.130922720] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798607.237283536] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Activating
+[INFO] [1789798607.237558151] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1789798607.395576264] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798608.375108843] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Robot to continue normal operation
+[WARN] [1789798609.379015497] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1789798611.620300980] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798611.620955603] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1789798611.625454611] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Deactivating
+[INFO] [1789798611.625720925] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789798611.644120282] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Cleaning up
+[INFO] [1789798611.644825184] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798611.645323066] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798611.676495225] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1789798611.766959684] [freshness_probe.v5_85046.clock_epoch_recovery_r03.g_cmd_cm]: Destroying

@@ -1,0 +1,20 @@
+[INFO] [1789799229.562429250] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: 
+	guarded_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799229.824571260] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Configuring
+[INFO] [1789799229.858838063] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799229.895787273] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799230.106874305] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Activating
+[INFO] [1789799230.107023349] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Creating bond (guarded_cm) to lifecycle manager.
+[WARN] [1789799230.997063499] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799233.318855583] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Robot to continue normal operation
+[INFO] [1789799236.567596555] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799236.567776160] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Running Nav2 LifecycleNode rcl preshutdown (guarded_cm)
+[INFO] [1789799236.567895136] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Deactivating
+[INFO] [1789799236.567940491] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789799236.578495120] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Cleaning up
+[INFO] [1789799236.578870952] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799236.579370479] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799236.588965607] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789799236.615410626] [freshness_probe.v5_85046.cmd_loss_r03.guarded_cm]: Destroying

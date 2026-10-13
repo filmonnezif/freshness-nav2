@@ -1,0 +1,21 @@
+[INFO] [1789798715.247305223] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798715.900415062] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Configuring
+[INFO] [1789798716.027903172] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798716.058820775] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798716.148169386] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Activating
+[INFO] [1789798716.148350245] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1789798717.229359654] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798718.029641472] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Robot to continue normal operation
+[WARN] [1789798719.025241335] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1789798721.278971676] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798721.279364721] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1789798721.279504030] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Deactivating
+[INFO] [1789798721.279562527] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789798721.292343121] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Cleaning up
+[INFO] [1789798721.293345249] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798721.293419992] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798721.319082741] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789798721.439456518] [freshness_probe.v5_85046.clock_backward_jump_r01.stock_watchdog_cm]: Destroying

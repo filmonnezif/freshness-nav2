@@ -1,0 +1,14 @@
+[INFO] [1789798730.925761004] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: 
+	stock_smoother lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798730.926409974] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Configuring velocity smoother
+[INFO] [1789798731.298196343] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Activating
+[INFO] [1789798731.298433268] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Creating bond (stock_smoother) to lifecycle manager.
+[INFO] [1789798737.118860176] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798737.119799358] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Running Nav2 LifecycleNode rcl preshutdown (stock_smoother)
+[INFO] [1789798737.120638044] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Deactivating
+[INFO] [1789798737.120975193] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Destroying bond (stock_smoother) to lifecycle manager.
+[INFO] [1789798737.132106307] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Cleaning up
+[INFO] [1789798737.132197798] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Destroying bond (stock_smoother) to lifecycle manager.
+[INFO] [1789798737.218866154] [freshness_probe.v5_85046.chrono_small_future_skew_r03.stock_smoother]: Destroying

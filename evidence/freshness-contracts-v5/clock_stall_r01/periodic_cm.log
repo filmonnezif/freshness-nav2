@@ -1,0 +1,20 @@
+[INFO] [1789799096.831264791] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799097.144256888] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Configuring
+[INFO] [1789799097.234405504] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799097.268560933] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799097.550318921] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Activating
+[INFO] [1789799097.550433154] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789799100.365368305] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799100.787023716] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Robot to continue normal operation
+[INFO] [1789799104.039409108] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799104.039581886] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789799104.039682870] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Deactivating
+[INFO] [1789799104.039716444] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789799104.051323304] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Cleaning up
+[INFO] [1789799104.051931172] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799104.051967746] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799104.068579633] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789799104.106851490] [freshness_probe.v5_85046.clock_stall_r01.periodic_cm]: Destroying

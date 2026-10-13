@@ -1,0 +1,20 @@
+[INFO] [1789799196.779388332] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799196.805185392] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Configuring
+[INFO] [1789799196.921977319] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799196.939093544] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799197.054794498] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Activating
+[INFO] [1789799197.054890041] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1789799200.287252424] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799200.726895195] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Robot to continue normal operation
+[INFO] [1789799204.009943220] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799204.010244026] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1789799204.010433445] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Deactivating
+[INFO] [1789799204.010508772] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789799204.028324439] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Cleaning up
+[INFO] [1789799204.029952035] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799204.029992650] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799204.042308193] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789799204.128657437] [freshness_probe.v5_85046.chrono_small_future_skew_r00.stock_watchdog_cm]: Destroying

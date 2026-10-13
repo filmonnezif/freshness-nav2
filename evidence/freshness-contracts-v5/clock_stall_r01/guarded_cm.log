@@ -1,0 +1,20 @@
+[INFO] [1789799097.123290738] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: 
+	guarded_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799097.167037500] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Configuring
+[INFO] [1789799097.223320998] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799097.289015032] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799097.548789331] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Activating
+[INFO] [1789799097.548873476] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Creating bond (guarded_cm) to lifecycle manager.
+[WARN] [1789799098.453801244] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799100.788016383] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Robot to continue normal operation
+[INFO] [1789799104.035527676] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799104.035672291] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Running Nav2 LifecycleNode rcl preshutdown (guarded_cm)
+[INFO] [1789799104.035804443] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Deactivating
+[INFO] [1789799104.035999616] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789799104.047435569] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Cleaning up
+[INFO] [1789799104.047514736] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799104.047532048] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799104.060485026] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Destroying bond (guarded_cm) to lifecycle manager.
+[INFO] [1789799104.084536108] [freshness_probe.v5_85046.clock_stall_r01.guarded_cm]: Destroying

@@ -1,0 +1,20 @@
+[INFO] [1789799097.063323461] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799097.144482515] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Configuring
+[INFO] [1789799097.252936905] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799097.343601189] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799097.546550030] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Activating
+[INFO] [1789799097.546680901] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1789799100.130624104] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799100.798463346] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Robot to continue normal operation
+[INFO] [1789799104.035207389] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799104.035355559] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1789799104.035484032] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Deactivating
+[INFO] [1789799104.035527768] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789799104.047676362] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Cleaning up
+[INFO] [1789799104.047739506] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799104.047755706] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799104.100275055] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789799104.132501670] [freshness_probe.v5_85046.clock_stall_r01.stock_watchdog_cm]: Destroying

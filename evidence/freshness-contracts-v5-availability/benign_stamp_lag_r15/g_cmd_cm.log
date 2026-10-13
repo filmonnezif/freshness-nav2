@@ -1,0 +1,20 @@
+[INFO] [1791880687.607854119] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880687.818604294] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Configuring
+[INFO] [1791880687.865372632] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880687.877593158] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880687.951906190] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Activating
+[INFO] [1791880687.951972747] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1791880688.893706595] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880691.593350080] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Robot to continue normal operation
+[INFO] [1791880694.796303773] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880694.797590227] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1791880694.797716944] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Deactivating
+[INFO] [1791880694.797755961] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1791880694.808419121] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Cleaning up
+[INFO] [1791880694.808639299] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880694.808680918] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880694.822886529] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1791880694.880761044] [freshness_probe.v5_19.benign_stamp_lag_r15.g_cmd_cm]: Destroying

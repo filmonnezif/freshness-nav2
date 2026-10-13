@@ -1,0 +1,21 @@
+[INFO] [1789798604.016119842] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: 
+	stock_watchdog_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798607.014698363] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Configuring
+[INFO] [1789798607.036752491] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798607.044938424] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798607.236688179] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Activating
+[INFO] [1789798607.237837234] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Creating bond (stock_watchdog_cm) to lifecycle manager.
+[WARN] [1789798608.110198842] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798608.387649292] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Robot to continue normal operation
+[WARN] [1789798609.383604416] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1789798611.620327221] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798611.620564560] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Running Nav2 LifecycleNode rcl preshutdown (stock_watchdog_cm)
+[INFO] [1789798611.620700660] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Deactivating
+[INFO] [1789798611.620746952] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789798611.635554511] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Cleaning up
+[INFO] [1789798611.636102778] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798611.636315722] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798611.671229899] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Destroying bond (stock_watchdog_cm) to lifecycle manager.
+[INFO] [1789798611.692536026] [freshness_probe.v5_85046.clock_epoch_recovery_r03.stock_watchdog_cm]: Destroying

@@ -1,0 +1,20 @@
+[INFO] [1791880742.268662093] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: 
+	g_cmd_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791880742.401855816] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Configuring
+[INFO] [1791880742.437565166] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1791880742.487317745] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1791880742.569089927] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Activating
+[INFO] [1791880742.569188063] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Creating bond (g_cmd_cm) to lifecycle manager.
+[WARN] [1791880745.869577672] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1791880746.129528823] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Robot to continue normal operation
+[INFO] [1791880749.341823206] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1791880749.341947918] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Running Nav2 LifecycleNode rcl preshutdown (g_cmd_cm)
+[INFO] [1791880749.342064419] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Deactivating
+[INFO] [1791880749.342114863] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1791880749.353639474] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Cleaning up
+[INFO] [1791880749.353824114] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1791880749.353863321] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1791880749.364547059] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Destroying bond (g_cmd_cm) to lifecycle manager.
+[INFO] [1791880749.481548340] [freshness_probe.v5_19.repeated_command_r14.g_cmd_cm]: Destroying

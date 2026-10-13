@@ -1,0 +1,20 @@
+[INFO] [1789799129.872650222] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789799130.019261435] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Configuring
+[INFO] [1789799130.122895849] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789799130.161672539] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789799130.342472275] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Activating
+[INFO] [1789799130.342592063] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789799131.307180450] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789799134.348009981] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Robot to continue normal operation
+[INFO] [1789799137.582519344] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789799137.582814998] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789799137.583120319] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Deactivating
+[INFO] [1789799137.583243960] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789799137.619404008] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Cleaning up
+[INFO] [1789799137.620274925] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789799137.621462818] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789799137.627874097] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789799137.666149457] [freshness_probe.v5_85046.healthy_r00.periodic_cm]: Destroying

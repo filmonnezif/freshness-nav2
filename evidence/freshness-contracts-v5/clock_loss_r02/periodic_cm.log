@@ -1,0 +1,20 @@
+[INFO] [1789798844.471432833] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: 
+	periodic_cm lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1789798844.879021731] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Configuring
+[INFO] [1789798845.015303019] [collision_monitor]: [scan]: Creating Scan
+[INFO] [1789798845.056036735] [collision_monitor]: [Stop]: Creating Polygon
+[INFO] [1789798845.271207654] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Activating
+[INFO] [1789798845.271308239] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Creating bond (periodic_cm) to lifecycle manager.
+[WARN] [1789798846.402534105] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[INFO] [1789798848.766347359] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Robot to continue normal operation
+[INFO] [1789798851.987832540] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1789798851.988079368] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Running Nav2 LifecycleNode rcl preshutdown (periodic_cm)
+[INFO] [1789798851.988211266] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Deactivating
+[INFO] [1789798851.988250045] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798852.002454680] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Cleaning up
+[INFO] [1789798852.002684128] [collision_monitor]: [Stop]: Destroying Polygon
+[INFO] [1789798852.002784084] [collision_monitor]: [scan]: Destroying Scan
+[INFO] [1789798852.011679794] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Destroying bond (periodic_cm) to lifecycle manager.
+[INFO] [1789798852.041764545] [freshness_probe.v5_85046.clock_loss_r02.periodic_cm]: Destroying
